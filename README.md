@@ -24,3 +24,47 @@ $ git push origin --delete test
 To https://github.com/haroldmud/Git-trial.git
  - [deleted]         test
  ```
+
+ ### Exercise 2
+
+ ```bash
+ $ git status
+        home.html
+$ git stash list
+$ git add home.html
+$ git status
+        new file: home.html
+$ git stash
+	Saved working directory and index state WIP on dev: 7ea8fc1 init project
+$ git stash list
+	stash@{0}: WIP on dev: 7ea8fc1 init project
+
+$ git add about.html
+$ git status
+        new file: about.html
+$ git stash
+$ git stash list
+stash@{0}: WIP on dev: 7ea8fc1 init project
+stash@{1}: WIP on dev: 7ea8fc1 init project
+
+$ git add team.html
+$ git status
+        new file: team.html
+$ git stash
+$ git stash list
+stash@{0}: WIP on dev: 7ea8fc1 init project
+stash@{1}: WIP on dev: 7ea8fc1 init project
+stash@{2}: WIP on dev: 7ea8fc1 init project
+
+$ git stash pop stash@{1}
+        new file:   about.html
+	Dropped stash@{1} (04355e17a24a059308ef9b64abb73fd8400314de)
+$ git stash pop stash@{2}
+        new file:   home.html
+	Dropped stash@{1} (04355e17a24a059308ef9b64abb73fd8400314de)
+$ git stash
+$ git status
+	new file:   team.html
+$ git reset --hard
+	HEAD is now at 0359eee Stash pop the about and the home page
+    ```
