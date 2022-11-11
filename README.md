@@ -80,3 +80,21 @@ $ git add services.html
 $ git commit -m "Create the service page"
 $ git push origin ft/bundle-2 
 ```
+## Bundle 2
+
+### Exercise 2
+```bash 
+$ git checkout main
+	Switched to the branch 'main'
+$ git checkout -b ft/service-redesign
+	Switched to a new branch 'ft/service-redesign'
+$ git add services.html
+$ git commit -m "feat: add services list"
+$ git push
+$ git checkout main
+	Switched to the branch 'main'
+$ git add services.html
+$ git commit -m "feat: add old services list"
+$ git merge main
+	Auto-merging services.html
+``` 
