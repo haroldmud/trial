@@ -94,5 +94,7 @@ $ git push
 $ git checkout main
 	Switched to the branch 'main'
 $ git add services.html
-$ git commit -m "feat: add old services list"	
+$ git commit -m "feat: add old services list"
+$ git merge main
+	Auto-merging services.html
 ``` 
