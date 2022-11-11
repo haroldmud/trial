@@ -68,3 +68,15 @@ $ git status
 $ git reset --hard
 	HEAD is now at 0359eee Stash pop the about and the home page
     ```
+```
+	
+## Bundle 2
+
+### Exercise 1
+```bash 
+$ git checkout -b ft/bundle-2
+	Switched to a new branch 'ft/bundle-2'
+$ git add services.html
+$ git commit -m "Create the service page"
+$ git push origin ft/bundle-2 
+```
