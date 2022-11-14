@@ -131,7 +131,7 @@ $ git push
 ``` 
 ## Bundle 3
 
-### Exercise 1
+### Exercise 2
 ```bash 
 $ git checkout -b ft/home-page-redesign
 	Switched to a new branch 'ft/home-page-redesign'
