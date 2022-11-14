@@ -135,4 +135,6 @@ $ git push
 ```bash 
 $ git checkout -b ft/home-page-redesign
 $ git checkout main
+$ git add .
+$ git commit -m "Update readme"
 ``` 
