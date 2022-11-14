@@ -129,3 +129,10 @@ $ git revert dd6d5daa5a4a0df69bafd4a01a7ff114e8942985
 	This reverts commit dd6d5daa5a4a0df69bafd4a01a7ff114e8942985.
 $ git push
 ``` 
+## Bundle 3
+
+### Exercise 1
+```bash 
+$ git checkout -b ft/home-page-redesign
+$ git checkout main
+``` 
