@@ -174,3 +174,11 @@ $ git merge --squash ft/footer
 $ git commit -m "future changes squashing"
 $ git push --set-upstream origin ft/squashing
 ```
+
+## Bundle 4
+
+### Exercise 1
+```bash 
+$ git commit -m "feat: Rename home to index"
+$ deployed link: https://haroldmud.github.io/Git-trial/
+``` 
