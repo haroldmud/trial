@@ -97,4 +97,35 @@ $ git add services.html
 $ git commit -m "feat: add old services list"
 $ git merge main
 	Auto-merging services.html
+```
+
+## Bundle 3
+
+### Exercise 1
+```bash 
+$ git status
+	On branch main
+$ git checkout -b ft/team-page
+$ git add .
+$ git commit -m "feat:create the team page"
+$ git push origin ft/team-page
+$ git checkout main
+$ git checkout -b ft/contact-page
+$ git checkout ft/team-page
+$ git log
+$ git cherry-pick beb88b8068906372ae6675ad296238927dd82814
+	[ft/contact-page dd6d5da] feat: Create the team page
+ 	Date: Fri Nov 11 17:35:53 2022 +0200
+ 	1 file changed, 12 insertions(+)
+ 	create mode 100644 team.html
+$ git add --all
+$ git push origin ft/contact-page
+$ git checkout -b ft/faq-page
+$ git add --all
+$ git commit -m "feat: Add faq page"
+$ git push origin ft/faq-page
+$ git log
+$ git revert dd6d5daa5a4a0df69bafd4a01a7ff114e8942985
+	This reverts commit dd6d5daa5a4a0df69bafd4a01a7ff114e8942985.
+$ git push
 ``` 
