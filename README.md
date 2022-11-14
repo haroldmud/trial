@@ -144,3 +144,16 @@ $ git add .
 $ git commit -m "Add the menu to home.html"
 $ git push --set-upstream origin ft/home-page-redesign
 ``` 
+
+## Bundle 4
+
+### Exercise 1
+```bash 
+$ git checkout main
+$ git remote add git-copy git@github.com:haroldmud/git-exercise-clone.git
+$ git remote
+	git-copy
+	origin
+$ git push origin
+$ git push git-copy
+``` 
