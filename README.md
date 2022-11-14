@@ -134,7 +134,13 @@ $ git push
 ### Exercise 1
 ```bash 
 $ git checkout -b ft/home-page-redesign
+	Switched to a new branch 'ft/home-page-redesign'
 $ git checkout main
+	Switched to branch 'main'
+$ git commit -m "Update the home.html file"
+$ git checkout ft/home-page-redesign
+$ git rebase main
 $ git add .
-$ git commit -m "Update readme"
+$ git commit -m "Add the menu to home.html"
+$ git push --set-upstream origin ft/home-page-redesign
 ``` 
