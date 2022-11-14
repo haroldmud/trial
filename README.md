@@ -157,3 +157,20 @@ $ git remote
 $ git push origin
 $ git push git-copy
 ``` 
+
+### Exercise 2
+```bash 
+$ git checkout -b ft/footer
+	Switched to a new branch 'ft/footer'
+$ git add .
+$ git commit -m "Add footer page content"
+$ git push --set-upstream origin ft/footer
+$ git commit -m "Add a navigation bar"
+$ git push
+$ git checkout main
+$ git checkout -b ft/squashing
+	Switched to a new branch 'ft/squashing'
+$ git merge --squash ft/footer
+$ git commit -m "future changes squashing"
+$ git push --set-upstream origin ft/squashing
+```
