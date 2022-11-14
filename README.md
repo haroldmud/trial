@@ -182,3 +182,7 @@ $ git push --set-upstream origin ft/squashing
 $ git commit -m "feat: Rename home to index"
 $ deployed link: https://haroldmud.github.io/Git-trial/
 ``` 
+### Exercise 2
+```bash 
+
+``` 
