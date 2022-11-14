@@ -175,7 +175,7 @@ $ git commit -m "future changes squashing"
 $ git push --set-upstream origin ft/squashing
 ```
 
-## Bundle 4
+## Bundle 5
 
 ### Exercise 1
 ```bash 
@@ -184,5 +184,7 @@ $ deployed link: https://haroldmud.github.io/Git-trial/
 ``` 
 ### Exercise 2
 ```bash 
-
+$ git clone https://github.com/haroldmud/git-cafe-exercise.git
+$ git commit -m "Change the text Welcome to our place"
+$ git push
 ``` 
